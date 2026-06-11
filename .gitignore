@@ -1,24 +1,28 @@
-# Playwright output
+# Dependencies
 node_modules/
+
+# Playwright output
 test-results/
 playwright-report/
 blob-report/
 playwright/.cache/
-reports/   
+reports/
 
 # Allure output
 allure-results/
 allure-report/
 
-# VS Code / OS / general clutter
+# Env files
+# .env        # namerno ostaje u repou (CI za sad zavisi od njega)
+.env*.local
+
+# IDE / editor
 .vscode/
 .idea/
+
+# OS clutter
 .DS_Store
+Thumbs.db
+
+# Logs
 *.log
-
-# Env files
-# .env
-
-# Optional: Yarn logs (ako neko koristi Yarn)
-yarn-debug.log*
-yarn-error.log*
