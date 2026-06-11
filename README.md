@@ -169,7 +169,6 @@ TA_Playwright_TypeScript_Ecommerce/
 ├── .github/workflows/        # GitHub Actions workflow config
 ├── allure-report/            # Allure HTML report output
 ├── allure-results/           # Allure raw results
-├── node_modules/
 ├── pageObjects/              # Page Object classes & locators
 ├── reports/                  # Playwright HTML report output
 ├── test-results/             # Playwright test outputs
