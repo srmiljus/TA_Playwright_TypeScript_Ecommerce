@@ -31,8 +31,8 @@ The project follows a clean Page Object Model (POM) structure with reusable meth
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/srmiljus/Automation_Exercise_PW_TS.git
-cd Automation_Exercise_PW_TS
+git clone https://github.com/srmiljus/TA_Playwright_TypeScript_Ecommerce.git
+cd TA_Playwright_TypeScript_Ecommerce
 ```
 
 ### 2. Install dependencies
@@ -83,6 +83,8 @@ npx playwright test --grep @e2e
 npx playwright test --project=chromium
 npx playwright test --project=firefox
 npx playwright test --project=webkit
+
+```
 
 
 ### Show HTML report locally
@@ -162,7 +164,7 @@ npx allure serve allure-results
 ## Folder Structure
 
 ```
-Automation_Exercise_PW_TS/
+TA_Playwright_TypeScript_Ecommerce/
 │
 ├── .github/workflows/        # GitHub Actions workflow config
 ├── allure-report/            # Allure HTML report output
